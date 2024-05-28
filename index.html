@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie/TV Show Search</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Movie/TV Show Search</h1>
+    <form id="searchForm">
+      <div class="form-group">
+        <label for="searchInput"><b>Search full name:</b> Breaking Bad | El Camino: A Breaking Bad Movie | Breaking Bad Wolf | Snow Globe: A Breaking Bad Short | Breaking Bad Fortune Teller </label>
+        <input type="text" class="form-control" id="searchInput" placeholder="Enter movie or TV show name">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    <div id="searchResults" class="mt-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

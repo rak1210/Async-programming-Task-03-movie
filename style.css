@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+}
+.container {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  img{
+    width: 500px;
+    height: 500px;
+  }
+  
+  .result h3 {
+    margin-top: 0;
+  }
+  
+  .result p {
+    margin: 5px 0;
+  }
+  
+  .result img {
+    max-width: 100%;
+    height: auto;
+  }
